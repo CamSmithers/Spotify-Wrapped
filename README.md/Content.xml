@@ -1,0 +1,44 @@
+<sheet version="1" app_version="37" known_version="14">
+<markup version="1" identifier="markdownxl" displayName="Markdown XL">
+	<tag definition="heading1" pattern="#"></tag>
+	<tag definition="heading2" pattern="##"></tag>
+	<tag definition="heading3" pattern="###"></tag>
+	<tag definition="heading4" pattern="####"></tag>
+	<tag definition="heading5" pattern="#####"></tag>
+	<tag definition="heading6" pattern="######"></tag>
+	<tag definition="divider" pattern="----"></tag>
+	<tag definition="filename" pattern="@:"></tag>
+	<tag definition="blockquote" pattern="&gt;"></tag>
+	<tag definition="comment" pattern="%%"></tag>
+	<tag definition="orderedList" pattern="\d."></tag>
+	<tag definition="unorderedList" pattern="*"></tag>
+	<tag definition="unorderedList" pattern="+"></tag>
+	<tag definition="unorderedList" pattern="-"></tag>
+	<tag definition="codeblock" pattern="''"></tag>
+	<tag definition="codeblock" pattern="``"></tag>
+	<tag definition="nativeblock" pattern="~~"></tag>
+	<tag definition="code" startPattern="`" endPattern="`"></tag>
+	<tag definition="delete" startPattern="||" endPattern="||"></tag>
+	<tag definition="emph" startPattern="*" endPattern="*"></tag>
+	<tag definition="emph" startPattern="_" endPattern="_"></tag>
+	<tag definition="inlineComment" startPattern="++" endPattern="++"></tag>
+	<tag definition="inlineNative" startPattern="~" endPattern="~"></tag>
+	<tag definition="mark" startPattern="::" endPattern="::"></tag>
+	<tag definition="strong" startPattern="**" endPattern="**"></tag>
+	<tag definition="strong" startPattern="__" endPattern="__"></tag>
+	<tag definition="annotation" startPattern="{" endPattern="}"></tag>
+	<tag definition="link" startPattern="[" endPattern="]"></tag>
+	<tag definition="footnote" pattern="(fn)"></tag>
+	<tag definition="image" pattern="(img)"></tag>
+	<tag definition="video" pattern="(vid)"></tag>
+</markup>
+<string xml:space="preserve">
+<p><tags><tag kind="heading1"># </tag></tags>Spotify Wrapped Using R</p>
+<p>This project was designed to emulate Spotify Wrapped using R. In this project I wanted to identify the following…</p>
+<p><tags><tag kind="orderedList">1. </tag></tags>10 Artists/Albums/Songs for Each Year</p>
+<p><tags><tag kind="orderedList">2. </tag></tags>Play Count for Favorite Artists/Albums/Songs</p>
+<p><tags><tag kind="orderedList">3. </tag></tags>10 Artists/Albums/Songs Over the Course of Each Year</p>
+<p><tags><tag kind="orderedList">4. </tag></tags>10 Artists/Albums/Songs Over Time (All-Time Using Spotify)</p>
+<p><tags><tag kind="orderedList">5. </tag></tags>Which songs I listened to the most when having great days or horrible days</p>
+</string>
+</sheet>
